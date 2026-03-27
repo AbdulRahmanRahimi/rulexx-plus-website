@@ -92,13 +92,11 @@ h2.stitle span{color:var(--gold)}
 .aimg{width:100%;aspect-ratio:4/5;object-fit:cover;filter:grayscale(15%) brightness(.88)}
 .aframe{position:absolute;top:-13px;left:-13px;right:13px;bottom:13px;border:1px solid var(--gold-border);z-index:-1;pointer-events:none}
 .aframe::before{content:'';position:absolute;top:8px;left:8px;right:-8px;bottom:-8px;border:1px solid rgba(200,150,12,.1)}
-/* glass badge */
 .abadge{position:absolute;bottom:-22px;right:-22px;background:rgba(200,150,12,0.1);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid var(--gold-border);width:116px;height:116px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--fh);text-align:center;box-shadow:0 8px 40px rgba(200,150,12,.18)}
 .abadge-num{font-size:36px;color:var(--gold);line-height:1}
 .abadge-txt{font-size:10px;letter-spacing:2px;color:var(--text2);line-height:1.4}
 .atext{padding-left:10px}
 .afeats{margin-top:30px;display:flex;flex-direction:column;gap:10px}
-/* glass feature cards */
 .afeat{display:flex;align-items:flex-start;gap:14px;padding:17px;background:var(--glass);backdrop-filter:blur(12px);border:1px solid var(--gborder);border-left:2px solid var(--gold);transition:all .3s}
 .afeat:hover{background:rgba(200,150,12,0.05);border-color:var(--gold-border);transform:translateX(4px)}
 .afeat-icon{font-size:20px;flex-shrink:0;margin-top:1px}
@@ -109,7 +107,6 @@ h2.stitle span{color:var(--gold)}
 #products{padding:110px 0;background:var(--black);overflow:hidden}
 .pheader{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:52px;flex-wrap:wrap;gap:20px}
 .pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-/* glass product cards */
 .pcard{position:relative;overflow:hidden;background:var(--glass);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid var(--gborder);transition:all .35s}
 .pcard::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(200,150,12,.05) 0%,transparent 60%);opacity:0;transition:opacity .35s}
 .pcard:hover{border-color:var(--gold-border);transform:translateY(-6px);box-shadow:0 24px 60px rgba(200,150,12,.14),0 0 0 1px rgba(200,150,12,.1)}
@@ -118,7 +115,6 @@ h2.stitle span{color:var(--gold)}
 .pimg-wrap::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(6,7,8,.9) 100%)}
 .pimg{width:100%;height:100%;object-fit:cover;transition:transform .45s;position:relative;z-index:1}
 .pcard:hover .pimg{transform:scale(1.05)}
-/* oil bottle placeholder */
 .oil-bot{width:110px;height:178px;position:relative;z-index:1;display:flex;flex-direction:column;align-items:center}
 .ob-cap{width:48px;height:12px;background:var(--gold);border-radius:2px 2px 0 0;margin:0 auto}
 .ob-neck{width:42px;height:22px;background:linear-gradient(180deg,#1a2030,#0c0e12);border:1px solid rgba(200,150,12,.2);border-bottom:none;margin:0 auto}
@@ -140,7 +136,6 @@ h2.stitle span{color:var(--gold)}
 .mktitle .slbl::before{display:none}
 .mktitle .slbl::after{content:'';width:26px;height:1px;background:var(--gold)}
 .mkgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
-/* glass market cards */
 .mkitem{position:relative;padding:34px 14px;text-align:center;background:var(--glass);backdrop-filter:blur(12px);border:1px solid var(--gborder);transition:all .3s;overflow:hidden}
 .mkitem::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);transform:scaleX(0);transition:transform .3s}
 .mkitem:hover{background:rgba(200,150,12,.06);border-color:var(--gold-border);transform:translateY(-4px);box-shadow:0 14px 38px rgba(200,150,12,.1)}
@@ -154,7 +149,6 @@ h2.stitle span{color:var(--gold)}
 .wbg{position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=60');background-size:cover;background-position:center;filter:brightness(.07) saturate(.3);z-index:0}
 .wi{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 5%}
 .wgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-/* glass why-us cards */
 .wcard{padding:34px 26px;background:rgba(255,255,255,0.04);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border:1px solid rgba(255,255,255,0.07);transition:all .3s}
 .wcard:hover{background:rgba(200,150,12,.07);border-color:var(--gold-border);box-shadow:0 0 50px rgba(200,150,12,.1)}
 .wnum{font-family:var(--fh);font-size:62px;color:rgba(200,150,12,.14);line-height:1;margin-bottom:10px}
@@ -170,18 +164,16 @@ h2.stitle span{color:var(--gold)}
 .timg{width:100%;height:100%;object-fit:cover;object-position:top center;filter:grayscale(25%) brightness(.88);transition:all .5s}
 .tcard:hover .timg{filter:grayscale(0%) brightness(1);transform:scale(1.05)}
 .tov{position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(6,7,8,.98) 100%)}
-/* glass team info */
 .tinfo{position:absolute;bottom:0;left:0;right:0;padding:18px;background:rgba(6,7,8,0.35);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid rgba(255,255,255,0.06);transform:translateY(4px);transition:transform .3s}
 .tcard:hover .tinfo{transform:translateY(0);border-top-color:var(--gold-border)}
 .tname{font-family:var(--fh);font-size:20px;letter-spacing:1px;color:var(--white);text-transform:uppercase}
 .trole{font-family:var(--fc);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-top:3px}
-/* glass GM bar */
 .gm-bar{margin-top:18px;display:flex;align-items:center;gap:22px;padding:22px 28px;background:rgba(200,150,12,0.06);backdrop-filter:blur(20px);border:1px solid var(--gold-border);flex-wrap:wrap}
 .gm-name{font-family:var(--fh);font-size:30px;color:var(--white);letter-spacing:2px}
 .gm-badge{font-family:var(--fc);font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);padding:5px 13px;background:rgba(200,150,12,.1);border:1px solid var(--gold-border);backdrop-filter:blur(8px)}
 .gm-desc{margin-left:auto;font-size:13px;color:var(--text2);font-weight:300;max-width:380px;line-height:1.65}
 
-/* CERTS */
+/* ── CERTS — UPDATED ── */
 #certs{padding:80px 0;background:linear-gradient(180deg,var(--dark) 0%,var(--black) 100%);position:relative;overflow:hidden}
 #certs::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 50% 50%,rgba(200,150,12,.04) 0%,transparent 70%)}
 .ci{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 5%}
@@ -190,13 +182,22 @@ h2.stitle span{color:var(--gold)}
 .ctitle{font-family:var(--fh);font-size:clamp(30px,5vw,58px);text-align:center;color:var(--white);letter-spacing:3px;text-transform:uppercase;margin-bottom:5px}
 .csub{font-size:13px;color:var(--text3);text-align:center;font-style:italic}
 .cgrid{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:34px}
-/* glass cert tiles */
-.ctile{padding:20px 28px;background:rgba(255,255,255,0.03);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,0.07);display:flex;align-items:center;justify-content:center;min-width:128px;transition:all .3s;cursor:default}
-.ctile:hover{background:rgba(200,150,12,.07);border-color:var(--gold-border);box-shadow:0 0 28px rgba(200,150,12,.1)}
-.ctile img{height:40px;width:auto;object-fit:contain;filter:grayscale(100%) brightness(1.6);transition:filter .3s}
-.ctile:hover img{filter:none}
-.ctile-text{font-family:var(--fh);font-size:16px;letter-spacing:3px;color:var(--text3);text-transform:uppercase;transition:color .3s}
-.ctile:hover .ctile-text{color:var(--gold)}
+.ctile{
+  padding:20px 24px;
+  background:rgba(255,255,255,0.03);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  border:1px solid rgba(255,255,255,0.07);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:8px;
+  min-width:110px;
+  transition:all .3s;cursor:default
+}
+.ctile:hover{background:rgba(200,150,12,.07);border-color:var(--gold-border);box-shadow:0 0 28px rgba(200,150,12,.1);transform:translateY(-3px)}
+.ctile img{height:44px;width:auto;max-width:80px;object-fit:contain;filter:grayscale(100%) brightness(2) invert(0);transition:filter .3s}
+.ctile:hover img{filter:grayscale(0%) brightness(1.1)}
+.ctile-name{font-family:var(--fc);font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--text3);transition:color .3s;text-align:center}
+.ctile:hover .ctile-name{color:var(--gold)}
 
 /* GALLERY */
 #gallery{padding:80px 0;background:var(--dark2);overflow:hidden}
@@ -206,7 +207,6 @@ h2.stitle span{color:var(--gold)}
 .gitem::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(200,150,12,.18),transparent);opacity:0;transition:opacity .4s}
 .gitem:hover img{filter:grayscale(0%) brightness(1);transform:scale(1.08)}
 .gitem:hover::after{opacity:1}
-/* glass overlay on hover */
 .gitem-overlay{position:absolute;inset:0;display:flex;align-items:flex-end;padding:16px;opacity:0;transition:opacity .3s}
 .gitem:hover .gitem-overlay{opacity:1}
 .gitem-label{font-family:var(--fc);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);background:rgba(6,7,8,0.6);backdrop-filter:blur(10px);border:1px solid var(--gold-border);padding:5px 10px}
@@ -219,7 +219,6 @@ h2.stitle span{color:var(--gold)}
 .cdetails{margin-top:32px;display:flex;flex-direction:column;gap:0}
 .cdet{display:flex;gap:16px;padding:17px 0;border-bottom:1px solid rgba(255,255,255,0.05);align-items:flex-start}
 .cdet:last-child{border-bottom:none}
-/* glass icon */
 .cicon{width:42px;height:42px;background:rgba(200,150,12,.09);backdrop-filter:blur(10px);border:1px solid var(--gold-border);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
 .cdet-lbl{font-family:var(--fc);font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--text3);margin-bottom:4px}
 .cdet-val{font-size:14px;color:var(--text);font-weight:400;line-height:1.6}
@@ -228,7 +227,6 @@ h2.stitle span{color:var(--gold)}
 .hgr{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:5px}
 .hr{display:flex;justify-content:space-between;font-size:12px;color:var(--text2);padding:2px 0}
 .hr span:last-child{color:var(--gold);font-family:var(--fc);font-weight:600;letter-spacing:1px}
-/* glass form */
 .cform{background:rgba(255,255,255,0.04);backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px);border:1px solid rgba(255,255,255,0.08);padding:38px;box-shadow:0 30px 80px rgba(0,0,0,.5)}
 .ftitle{font-family:var(--fh);font-size:32px;letter-spacing:2px;text-transform:uppercase;color:var(--white);margin-bottom:4px}
 .fsub{font-size:13px;color:var(--text2);margin-bottom:26px;font-weight:300;line-height:1.6}
@@ -236,7 +234,6 @@ h2.stitle span{color:var(--gold)}
 .fg2{grid-template-columns:1fr 1fr}
 .fgrp{display:flex;flex-direction:column;gap:6px}
 .flbl{font-family:var(--fc);font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--text3)}
-/* glass inputs */
 .finput{background:rgba(255,255,255,0.04);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,0.08);color:var(--text);padding:11px 13px;font-family:var(--fb);font-size:14px;outline:none;transition:all .2s;width:100%}
 .finput:focus{border-color:var(--gold-border);background:rgba(200,150,12,.04);box-shadow:0 0 0 3px rgba(200,150,12,.07)}
 .finput::placeholder{color:var(--text3)}
@@ -494,23 +491,70 @@ footer{background:var(--dark);border-top:1px solid rgba(255,255,255,0.05);paddin
   </div>
 </section>
 
-<!-- CERTS -->
+<!-- ── CERTS — UPDATED WITH BRAND LOGOS ── -->
 <section id="certs">
   <div class="ci">
     <div class="ch reveal">
-      <div class="slbl">Standards We Meet</div>
+      <div class="slbl">Approved For</div>
       <div class="ctitle">CERTIFIED BY</div>
-      <div class="csub">All RulexxPlus products meet or exceed industry certification standards</div>
+      <div class="csub">RulexxPlus synthetic oils meet the specifications of these leading automotive manufacturers</div>
     </div>
     <div class="cgrid">
+
+      <!-- Mercedes-Benz -->
       <div class="ctile reveal">
-        <img src="SEA.png" alt="SAE" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
-        <span class="ctile-text" style="display:none">SAE</span>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/120px-Mercedes-Logo.svg.png" alt="Mercedes-Benz">
+        <span class="ctile-name">Mercedes-Benz</span>
       </div>
-      <div class="ctile reveal d1"><span class="ctile-text">API</span></div>
-      <div class="ctile reveal d2"><span class="ctile-text">ILSAC</span></div>
-      <div class="ctile reveal d3"><span class="ctile-text">ACEA</span></div>
-      <div class="ctile reveal d4"><span class="ctile-text">OEM APPROVED</span></div>
+
+      <!-- BMW -->
+      <div class="ctile reveal d1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/120px-BMW.svg.png" alt="BMW">
+        <span class="ctile-name">BMW</span>
+      </div>
+
+      <!-- Audi -->
+      <div class="ctile reveal d2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Audi-Logo_2016.svg/160px-Audi-Logo_2016.svg.png" alt="Audi">
+        <span class="ctile-name">Audi</span>
+      </div>
+
+      <!-- Volvo -->
+      <div class="ctile reveal d3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Volvo_logo.svg/160px-Volvo_logo.svg.png" alt="Volvo">
+        <span class="ctile-name">Volvo</span>
+      </div>
+
+      <!-- Jaguar -->
+      <div class="ctile reveal d4">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Jaguar_Cars_logo.svg/160px-Jaguar_Cars_logo.svg.png" alt="Jaguar">
+        <span class="ctile-name">Jaguar</span>
+      </div>
+
+      <!-- Volkswagen -->
+      <div class="ctile reveal">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/120px-Volkswagen_logo_2019.svg.png" alt="Volkswagen">
+        <span class="ctile-name">Volkswagen</span>
+      </div>
+
+      <!-- MINI -->
+      <div class="ctile reveal d1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/MINI_logo.svg/160px-MINI_logo.svg.png" alt="MINI">
+        <span class="ctile-name">MINI</span>
+      </div>
+
+      <!-- Daimler -->
+      <div class="ctile reveal d2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Daimler_AG_logo.svg/160px-Daimler_AG_logo.svg.png" alt="Daimler">
+        <span class="ctile-name">Daimler</span>
+      </div>
+
+      <!-- MACK Trucks -->
+      <div class="ctile reveal d3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Mack_Trucks_logo.svg/160px-Mack_Trucks_logo.svg.png" alt="MACK Trucks">
+        <span class="ctile-name">MACK Trucks</span>
+      </div>
+
     </div>
   </div>
 </section>
