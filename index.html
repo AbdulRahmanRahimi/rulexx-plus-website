@@ -47,7 +47,7 @@
       background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.22'/%3E%3C/svg%3E");
       z-index:100;
     }
-    img{display:block;max-width:100%}
+    {display:block;max-width:100%}
     a{text-decoration:none;color:inherit}
     .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
     .section{padding:96px 0}
@@ -181,7 +181,7 @@
       color:var(--brand2);
       font-size:21px;
     }
-    .brand-mark img{
+    .brand-mark {
       width:100%;height:100%;object-fit:contain;padding:6px;
     }
     .brand-name{
@@ -503,7 +503,7 @@
         radial-gradient(circle at 50% 18%, rgba(200,150,12,.18), transparent 34%),
         linear-gradient(180deg,#181e25,#11161c);
     }
-    .product-media img{
+    .product-media {
       width:min(78%,280px);
       max-height:240px;
       object-fit:contain;
@@ -794,7 +794,7 @@
       border-radius:22px;
       text-align:center;
     }
-    .approval-tile img{
+    .approval-tile {
       height:44px;
       width:auto;
       max-width:82px;
@@ -803,7 +803,7 @@
       filter:grayscale(100%) brightness(1.8);
       transition:.25s ease;
     }
-    .approval-tile:hover img{filter:grayscale(0) brightness(1.06)}
+    .approval-tile:hover {filter:grayscale(0) brightness(1.06)}
     .approval-name{
       font-size:10px;
       font-weight:800;
@@ -826,7 +826,7 @@
       border-radius:20px;
       position:relative;
     }
-    .gallery-item img{
+    .gallery-item {
       width:100%;height:100%;object-fit:cover;
       filter:brightness(.84) grayscale(.18);
       transition:.45s ease;
@@ -857,7 +857,7 @@
       border:1px solid rgba(200,150,12,.18);
       backdrop-filter:blur(8px);
     }
-    .gallery-item:hover img{
+    .gallery-item:hover {
       transform:scale(1.08);
       filter:brightness(1) grayscale(0);
     }
@@ -1107,7 +1107,7 @@
     <div class="nav-inner">
       <a href="#" class="brand">
         <div class="brand-mark" id="brandMark">
-          <img src="logo.png" alt="RulexxPlus logo"
+          < src="logo.png" alt="RulexxPlus logo"
                onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/rahimiabdulrahmanab/rulexxplus/main/logo.png'; this.addEventListener('error', function(){ this.remove(); document.getElementById('brandMark').textContent='R'; });">
         </div>
         <div>
@@ -1235,7 +1235,7 @@
     <div class="wrap about-grid">
       <div class="about-image-wrap">
         <div class="about-image-frame"></div>
-        <img src="engine.jpg" alt="Motor oil lab" class="about-image"
+        < src="engine.jpg" alt="Motor oil lab" class="about-image"
              onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=900&q=80';">
         <div class="about-badge glass">
           <strong>GTA</strong>
@@ -1293,7 +1293,7 @@
       <div class="catalog">
         <article class="product-card glass">
           <div class="product-media">
-            <img data-fallback="5W-30" data-sources="SEA5W30.jpg" alt="5W-30 Motor Oil">
+            <img src="SEA5W30.jpg" alt="5W-30 Motor Oil">
           </div>
           <div class="product-body">
             <div class="product-head">
@@ -1319,7 +1319,7 @@
 
         <article class="product-card glass">
           <div class="product-media">
-            <img data-fallback="0W-20" data-sources="0W20.png" alt="0W-20 Motor Oil">
+            <img src="SEAOW20.png" alt="5W-30 Motor Oil">
           </div>
           <div class="product-body">
             <div class="product-head">
@@ -1345,7 +1345,7 @@
 
         <article class="product-card glass">
           <div class="product-media">
-            <img data-fallback="0W-16" data-sources="OS16.png,OW16.png,0W16.png,SAE0W16.png" alt="0W-16 Motor Oil">
+            <img src="SEAOS16.jpg" alt="5W-30 Motor Oil">
           </div>
           <div class="product-body">
             <div class="product-head">
@@ -1371,7 +1371,7 @@
 
         <article class="product-card glass">
           <div class="product-media">
-            <img data-fallback="5W-40" data-sources="5W40.png,SAE5W40.png,SEA40.png" alt="5W-40 Motor Oil">
+            <img src="SEA5W40.jpg" alt="5W-30 Motor Oil">
           </div>
           <div class="product-body">
             <div class="product-head">
@@ -1397,7 +1397,7 @@
 
         <article class="product-card glass">
           <div class="product-media">
-            <img data-fallback="10W-40" data-sources="10W40.png,SAE10W40.png" alt="10W-40 Motor Oil">
+            <img src="SEA10W40.jpg" alt="5W-30 Motor Oil">
           </div>
           <div class="product-body">
             <div class="product-head">
@@ -1536,7 +1536,7 @@
       <div class="team-grid">
         <div class="team-card glass">
           <div class="team-image-wrap">
-            <img src="Mahmood.jpeg" alt="Bilal Baba" class="team-image"
+            < src="Mahmood.jpeg" alt="Bilal Baba" class="team-image"
                  onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80';">
             <div class="team-overlay"></div>
           </div>
@@ -1548,7 +1548,7 @@
 
         <div class="team-card glass">
           <div class="team-image-wrap">
-            <img src="Nazir Ahmad Sultani.jpeg" alt="Nazir Sultani" class="team-image"
+            < src="Nazir Ahmad Sultani.jpeg" alt="Nazir Sultani" class="team-image"
                  onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80';">
             <div class="team-overlay"></div>
           </div>
@@ -1560,7 +1560,7 @@
 
         <div class="team-card glass">
           <div class="team-image-wrap">
-            <img src="Abdul Ahad.jpeg" alt="Abdul Ahad" class="team-image"
+            < src="Abdul Ahad.jpeg" alt="Abdul Ahad" class="team-image"
                  onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80';">
             <div class="team-overlay"></div>
           </div>
@@ -1572,7 +1572,7 @@
 
         <div class="team-card glass">
           <div class="team-image-wrap">
-            <img src="Ahmad Shah.jpeg" alt="Noman Tasmim" class="team-image"
+            < src="Ahmad Shah.jpeg" alt="Noman Tasmim" class="team-image"
                  onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80';">
             <div class="team-overlay"></div>
           </div>
@@ -1603,36 +1603,36 @@
 
       <div class="approval-grid">
         <div class="approval-tile glass">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/120px-Mercedes-Logo.svg.png" alt="Mercedes-Benz">
+          < src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/120px-Mercedes-Logo.svg.png" alt="Mercedes-Benz">
           <div class="approval-name">Mercedes-Benz</div>
         </div>
         <div class="approval-tile glass">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/120px-BMW.svg.png" alt="BMW">
+          < src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/120px-BMW.svg.png" alt="BMW">
           <div class="approval-name">BMW</div>
         </div>
         <div class="approval-tile glass">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Audi-Logo_2016.svg" alt="Audi">
+          < src="https://upload.wikimedia.org/wikipedia/commons/9/92/Audi-Logo_2016.svg" alt="Audi">
           <div class="approval-name">Audi</div>
         </div>
         <div class="approval-tile glass">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Volvo_logo.svg" alt="Volvo">
+          < src="https://upload.wikimedia.org/wikipedia/commons/5/54/Volvo_logo.svg" alt="Volvo">
           <div class="approval-name">Volvo</div>
         </div>
         <div class="approval-tile glass">
-          <img src="jaguar.png" alt="Jaguar"
+          < src="jaguar.png" alt="Jaguar"
                onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/0/07/Jaguar_2021.svg';">
           <div class="approval-name">Jaguar</div>
         </div>
         <div class="approval-tile glass">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/250px-Volkswagen_logo_2019.svg.png" alt="Volkswagen">
+          < src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/250px-Volkswagen_logo_2019.svg.png" alt="Volkswagen">
           <div class="approval-name">Volkswagen</div>
         </div>
         <div class="approval-tile glass">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/MINI_logo.svg" alt="MINI">
+          < src="https://upload.wikimedia.org/wikipedia/commons/e/e9/MINI_logo.svg" alt="MINI">
           <div class="approval-name">MINI</div>
         </div>
         <div class="approval-tile glass">
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Daimler_logo.svg/960px-Daimler_logo.svg.png" alt="Daimler">
+          < src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Daimler_logo.svg/960px-Daimler_logo.svg.png" alt="Daimler">
           <div class="approval-name">Daimler</div>
         </div>
       </div>
@@ -1651,20 +1651,20 @@
 
       <div class="gallery-grid">
         <div class="gallery-item glass">
-          <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&q=80" alt="Engine oil">
+          < src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600&q=80" alt="Engine oil">
           <div class="gallery-overlay"><span class="gallery-label">Engine Oil</span></div>
         </div>
         <div class="gallery-item glass">
-          <img src="Lab.png" alt="Lab testing"
+          < src="Lab.png" alt="Lab testing"
                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=600&q=80';">
           <div class="gallery-overlay"><span class="gallery-label">Lab Testing</span></div>
         </div>
         <div class="gallery-item glass">
-          <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=600&q=80" alt="Industrial">
+          < src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=600&q=80" alt="Industrial">
           <div class="gallery-overlay"><span class="gallery-label">Industrial</span></div>
         </div>
         <div class="gallery-item glass">
-          <img src="https://images.unsplash.com/photo-1493946740644-2d8a1f1a6aff?w=600&q=80" alt="Fleet trucks">
+          < src="https://images.unsplash.com/photo-1493946740644-2d8a1f1a6aff?w=600&q=80" alt="Fleet trucks">
           <div class="gallery-overlay"><span class="gallery-label">Fleet Trucks</span></div>
         </div>
       </div>
@@ -1794,7 +1794,7 @@
         <div>
           <a href="#" class="brand">
             <div class="brand-mark" id="footerBrandMark">
-              <img src="logo.png" alt="RulexxPlus logo"
+              < src="logo.png" alt="RulexxPlus logo"
                    onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/rahimiabdulrahmanab/rulexxplus/main/logo.png'; this.addEventListener('error', function(){ this.remove(); document.getElementById('footerBrandMark').textContent='R'; });">
             </div>
             <div>
@@ -1849,21 +1849,21 @@
 
   <script>
     function attachProductImages() {
-      const imgs = document.querySelectorAll('.product-media img[data-sources]');
-      imgs.forEach(function(img){
-        const sources = (img.getAttribute('data-sources') || '')
+      const s = document.querySelectorAll('.product-media [data-sources]');
+      s.forEach(function(){
+        const sources = (.getAttribute('data-sources') || '')
           .split(',')
           .map(function(s){ return s.trim(); })
           .filter(Boolean);
 
-        const fallbackText = img.getAttribute('data-fallback') || 'Product';
+        const fallbackText = .getAttribute('data-fallback') || 'Product';
         let index = 0;
 
         function showFallback() {
           const box = document.createElement('div');
           box.className = 'fallback-bottle';
           box.innerHTML = '<span>' + fallbackText + '</span>';
-          img.replaceWith(box);
+          .replaceWith(box);
         }
 
         function tryNext() {
@@ -1873,7 +1873,7 @@
           }
           const test = new Image();
           test.onload = function() {
-            img.src = sources[index];
+            .src = sources[index];
           };
           test.onerror = function() {
             index += 1;
