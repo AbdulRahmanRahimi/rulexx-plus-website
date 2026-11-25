@@ -14,4 +14,4 @@ Hand-written HTML, CSS and JavaScript, responsive and with no framework. Hosted 
 
 ---
 
-Built by **Abdul Rahman Rahimi**, [Rahimi Tech Solution](https://github.com/rahimiabdulrahmanab).
+Built by **Abdul Rahman Rahimi**, [Rahimi Tech Solution](https://github.com/AbdulRahmanRahimi).
